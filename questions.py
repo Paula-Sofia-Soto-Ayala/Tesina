@@ -7,7 +7,7 @@ import random, json
 
 class TestData(TypedDict):
     name: str
-    language: Literal["english"] | Literal["spanish"]
+    language: Literal["en"] | Literal["es"]
     answers: list[str]
     questions: list[str]
 
@@ -120,11 +120,11 @@ prefix_es = [
     "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:"
 ]
 
-def get_random_prefix(lang: Literal["english"] | Literal["spanish"]):
-    prefix = prefix_en if lang == "english" else prefix_es
+def get_random_prefix(lang: Literal["en"] | Literal["es"]):
+    prefix = prefix_en if lang == "en" else prefix_es
     return random.choice(prefix)
 
-def build_prompt(question: str, options: list[str], lang: Literal["english"] | Literal["spanish"]):
+def build_prompt(question: str, options: list[str], lang: Literal["en"] | Literal["es"]):
     inter_en = "Please choose one of the following options:"
     sufix_en = "Choose your answer from the options above, limit yourself to responding with only one of the available options, please."
 
@@ -132,8 +132,8 @@ def build_prompt(question: str, options: list[str], lang: Literal["english"] | L
     sufix_es = "Elige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor."
 
     prefix = get_random_prefix(lang)
-    inter = inter_en if lang == "english" else inter_es
-    sufix = sufix_en if lang == "english" else sufix_es
+    inter = inter_en if lang == "en" else inter_es
+    sufix = sufix_en if lang == "en" else sufix_es
 
     prompt: list[str] = [
         prefix,
@@ -146,8 +146,8 @@ def build_prompt(question: str, options: list[str], lang: Literal["english"] | L
     return "\n\n".join(prompt)
 
 db = get_db()
-question = db.query(Pregunta).filter(Pregunta.idioma == "spanish").first()
-test = db.query(Test).filter(Test.idioma == "spanish").first()
+question = db.query(Pregunta).filter(Pregunta.idioma == "es").first()
+test = db.query(Test).filter(Test.idioma == "es").first()
 
 if question and test:
     text = question.texto

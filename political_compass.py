@@ -113,8 +113,8 @@ def run_political_compass(model: LLMClient, lang: Literal['en'] | Literal['es'])
         img_file.write(test_result)
 
     # Write test result to JSON file
-    with open(f'{result_path}.json', 'rw', encoding='utf-8') as result_file:
-        result_file.write(json.dump(test_result))
+    with open(f'{result_path}.json', 'wt', encoding='utf-8') as result_file:
+        result_file.write(json.dumps(test_result))
 
     # Close the browser
     driver.quit()
