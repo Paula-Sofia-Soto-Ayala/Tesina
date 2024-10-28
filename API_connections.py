@@ -17,9 +17,8 @@ claude_api_key = os.getenv('CLAUDE_API_KEY')
 gemini_api_key = os.getenv('GEMINI_API_KEY')
 
 class LLMClient:
-    def __init__(self, api_key, base_url=None):
+    def __init__(self, api_key: str):
         self.api_key = api_key
-        self.base_url = base_url
 
     def send_request(self, prompt: str) -> str:
         print(prompt)
@@ -34,9 +33,10 @@ class OpenAIClient(LLMClient):
     def send_request(self, prompt: str) -> str:
         completion = self.client.chat.completions.create(
             model=self.model,
-            messages=[
-                {"role": "user", "content": prompt}
-            ]
+            messages=[{
+                "role": "user",
+                "content": prompt
+            }]
         )
         
         try:
@@ -51,13 +51,17 @@ class ClaudeClient(LLMClient):
         self.model = model
 
     def send_request(self, prompt: str) -> str:
-        message = self.client.completions.create(
-            model="claude-3-haiku-20240307",
-            max_tokens_to_sample=150,
-            prompt=prompt
+        response = self.client.messages.create(
+            model=self.model,
+            max_tokens=150,
+            temperature=0,
+            messages=[{
+                "role": "user",
+                "content": prompt
+            }]
         )
 
-        return message.completion
+        return response.content[0].text or ""
 
 class GeminiClient(LLMClient):
     def __init__(self, api_key: str, model: Literal["gemini-1.5-flash"] | Literal["gemini-1.5-flash-8b"] | Literal["gemini-1.5-pro"] | Literal["gemini-1.0-pro"]):
@@ -69,7 +73,7 @@ class GeminiClient(LLMClient):
         response = self.client.generate_content(contents=prompt)
         return response.text
 
-# Configuración de clientes para cada LLM
-chatgpt_client = OpenAIClient(api_key=openai_api_key, model="gpt-3.5-turbo")
-claude_client = ClaudeClient(api_key=claude_api_key, model="claude-3-haiku-20240307")
-gemini_client = GeminiClient(api_key=gemini_api_key, model="gemini-1.5-flash")
+# Configuracion de clientes para cada LLM
+chatgpt_client = OpenAIClient(api_key=openai_api_key, model="chatgpt-4o-latest")
+claude_client = ClaudeClient(api_key=claude_api_key, model="claude-3-5-sonnet-20240620")
+gemini_client = GeminiClient(api_key=gemini_api_key, model="gemini-1.5-pro")

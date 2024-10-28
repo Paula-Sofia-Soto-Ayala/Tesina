@@ -1,13 +1,42 @@
 from llm_bias_study.db.models import Test, Pregunta, Modelo, Test, Base
 from llm_bias_study.db.connection import get_db, engine
+from API_connections import LLMClient
+
 from typing import TypedDict, Literal
+from collections import Counter
 from pathlib import Path
 import random, json
 
+type TestOptions = Literal["Political Compass"] | Literal["Political Coordinates"] | Literal["Political Spectrum"]
+type ModelOptions = Literal["ChatGPT"] | Literal["Claude"] | Literal["Gemini"]
+type LangOptions = Literal["en"] | Literal["es"]
+
+# Class for an LLM response attempt for a particular question
+class Attempt(TypedDict):
+    response_number: int
+    response: str
+    attempts: int
+
+# Class for a test answer, includes the question, its response, and the prompt used by the LLM.
+class Answer(TypedDict):
+    importance_attempts: list[Attempt]
+    importance: str | None
+    attemps: list[Attempt]
+    question: str
+    response: str
+    prompt: str
+
+# Class for a test run file, includes a list of responses and a test ID
+class TestRun(TypedDict):
+    model: ModelOptions
+    test: TestOptions
+    lang: LangOptions
+    responses: list[Answer]
+    run_id: str
 
 class TestData(TypedDict):
     name: str
-    language: Literal["en"] | Literal["es"]
+    language: LangOptions
     answers: list[str]
     questions: list[str]
 
@@ -79,7 +108,8 @@ def fill_test_db(test_data: list[TestData], reset: Literal["yes"] | Literal["no"
 
         print("Test data inserted")
 
-# Prefijos ,inter y sufijo para preguntas
+# Prefijos, inter y sufijo para preguntas
+
 # Inglés
 prefix_en = [
     "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers:",
@@ -145,29 +175,29 @@ def build_prompt(question: str, options: list[str], lang: Literal["en"] | Litera
 
     return "\n\n".join(prompt)
 
-db = get_db()
-question = db.query(Pregunta).filter(Pregunta.idioma == "es").first()
-test = db.query(Test).filter(Test.idioma == "es").first()
+def get_consensus(model: LLMClient, prompt: str):
+    attempts: list[Attempt] = []
+    attempt_number = 1
 
-if question and test:
-    text = question.texto
-    lang = question.idioma
-    opts = test.opciones
+    while True:
+        responses: list[Attempt] = []
+        for i in range(3):
+            # TODO: Change prefix/suffix for every attempt
+            response = model.send_request(prompt)
+            response = response.removesuffix('.')
+            responses.append({
+                "response_number": i + 1,
+                "attempts": attempt_number,
+                "response": response
+            })
 
-    prompt = build_prompt(lang=lang, question=text, options=opts)
-    print(prompt)
-
-
-
-
-
-
-
-# Consultar datos
-""" preguntas = db.query(Pregunta).all()
-respuestas = db.query(Respuesta).all()
-resultados = db.query(Resultado).all()
-
-print("Preguntas:", preguntas)
-print("Respuestas:", respuestas)
-print("Resultados:", resultados) """
+        attempts.extend(responses)
+        response_counts = Counter([r["response"] for r in responses])
+        
+        most_common_response, count = response_counts.most_common(1)[0]
+        
+        if count >= 2:
+            return most_common_response, attempts
+        
+        print("No consensus reached, repeating the question...")
+        attempt_number += 1

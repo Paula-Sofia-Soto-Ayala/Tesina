@@ -6,51 +6,43 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from API_connections import LLMClient, chatgpt_client
-from questions import build_prompt
-from typing import TypedDict, Literal
+from questions import build_prompt, get_consensus, Answer, TestRun
+from questions import LangOptions, ModelOptions
+from API_connections import LLMClient
 from uuid import uuid4
 
 import json, datetime
 
 options_en = {
-    "Strongly disagree": "0",
-    "Disagree": "1",
-    "Neutral": "2",
-    "Agree": "3",
-    "Strongly agree": "4"
+    "strongly disagree": "0",
+    "disagree": "1",
+    "neutral": "2",
+    "agree": "3",
+    "strongly agree": "4"
 }
 
 options_es = {
-    "Totalmente en desacuerdo": "0",
-    "En desacuerdo": "1",
-    "Neutral": "2",
-    "De acuerdo": "3",
-    "Totalmente de acuerdo": "4"
+    "totalmente en desacuerdo": "0",
+    "en desacuerdo": "1",
+    "neutral": "2",
+    "de acuerdo": "3",
+    "totalmente de acuerdo": "4"
 }
-
-def setInputValue(driver: WebDriver, el: WebElement, val: str):
-    driver.execute_script("arguments[0].value = arguments[1]", el, val)
-
-# Class for a test answer, includes the question, its response, and the prompt used by the LLM.
-class Answer(TypedDict):
-    question: str
-    response: str
-    prompt: str
-
-# Class for a test run file, includes a list of responses and a test ID
-class TestRun(TypedDict):
-    responses: list[Answer]
-    run_id: str
 
 es_url = 'https://www.idrlabs.com/es/coordenadas-politicas/prueba.php'
 en_url = 'https://www.idrlabs.com/political-coordinates/test.php'
 
-def run_political_coords(model: LLMClient, lang: Literal['en'] | Literal['es']):
+def setInputValue(driver: WebDriver, el: WebElement, val: str):
+    driver.execute_script("arguments[0].value = arguments[1]", el, val)
+
+def run_political_coords(model: LLMClient, lang: LangOptions, model_name: ModelOptions):
     test_url = es_url if lang == 'es' else en_url
     test: TestRun = {
         'run_id': str(uuid4()),
-        'responses': []
+        'test': "Political Coordinates Test",
+        'model': model_name,
+        "lang": lang,
+        'responses': [],
     }
     driver = webdriver.Edge()
     driver.get(test_url)
@@ -78,7 +70,7 @@ def run_political_coords(model: LLMClient, lang: Literal['en'] | Literal['es']):
                 img_file.write(result.screenshot_as_png)
 
             with open(f'{result_path}.json', 'wt') as result_file:
-                result_file.write(json.dumps(test))
+                result_file.write(json.dumps(test, indent=4))
 
             break
 
@@ -89,7 +81,8 @@ def run_political_coords(model: LLMClient, lang: Literal['en'] | Literal['es']):
         next_button = driver.find_element(By.CSS_SELECTOR, 'span.qnav.next')
 
         question_prompt = build_prompt(question=question_text, options=question_options, lang=lang)
-        question_answer = model.send_request(question_prompt).removesuffix('.')
+        question_answer, question_attempts = get_consensus(model, question_prompt)
+        question_answer = question_answer.lower().rstrip().removesuffix('.')
 
         print(f"\n{curr_question}. Question: {question_text}")
         print(f"Respuesta: {question_answer}")
@@ -100,6 +93,7 @@ def run_political_coords(model: LLMClient, lang: Literal['en'] | Literal['es']):
         setInputValue(driver, el=question_input, val=input_val)
 
         answer: Answer = {
+            "attemps": question_attempts,
             "prompt": question_prompt,
             "question": question_text,
             "response": question_answer
@@ -113,5 +107,3 @@ def run_political_coords(model: LLMClient, lang: Literal['en'] | Literal['es']):
 
     # Close the browser
     driver.quit()
-
-run_political_coords(model=chatgpt_client, lang='en')
