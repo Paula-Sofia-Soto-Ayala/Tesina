@@ -1,12 +1,12 @@
 # from time import sleep
-import datetime, time, json
+import datetime, time, json, os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.edge.webdriver import WebDriver
 
-from questions import build_prompt, get_consensus, Answer, TestRun
+from questions import build_prompt, get_consensus, Answer, TestRun, save_clean_json
 from questions import ModelOptions, LangOptions
 from API_connections import LLMClient
 from typing import Literal
@@ -128,8 +128,13 @@ def run_political_spectrum(model: LLMClient, lang: LangOptions, model_name: Mode
                 lang=lang
             )
 
+            importance_prompt = f"The original question was: \n{question_text}.\n{importance_prompt}"
             importance_answer, importance_attempts = get_consensus(model, importance_prompt)
-            importance_index = int(importance_answer)
+            try:
+                importance_index = int(importance_answer)
+            except:
+                # If the model fails to answer or picks a number outside the bounds set to 'Neutral'
+                importance_index = 2
 
             answer: Answer = {
                 "importance_attempts": importance_attempts,
@@ -157,14 +162,19 @@ def run_political_spectrum(model: LLMClient, lang: LangOptions, model_name: Mode
     today = datetime.datetime.now()
 
     # If there is a result take a screenshot and save it
-    result_path = f'./results/{lang}/political_spectrum_{today.date()}_{test["run_id"]}'
+    #result_path = f'./results/{lang}/political_spectrum_{today.date()}_{test["run_id"]}'
+    result_path = f'./{model_name}/{test["test"]}/{lang}/results/political_spectrum_{today.date()}_{test["run_id"]}'
+    
+    os.makedirs(os.path.dirname(result_path), exist_ok=True)
 
     # Write the screenshot with its corresponding timestamp
     with open(f'{result_path}.png', 'wb') as img_file:
         img_file.write(test_results.screenshot_as_png)
 
-    with open(f'{result_path}.json', 'wt') as result_file:
-        result_file.write(json.dumps(test, indent=4))
+    """ with open(f'{result_path}.json', 'wt') as result_file:
+        result_file.write(json.dumps(test, indent=4)) """
+        
+    save_clean_json(test, f'{result_path}.json')
 
     # Close the browser
     driver.quit()

@@ -3,6 +3,7 @@ from questions import ModelOptions, TestOptions, LangOptions
 from political_coordinates import run_political_coords
 from political_spectrum import run_political_spectrum
 from political_compass import run_political_compass
+import os, json
 
 def select_llm() -> tuple[str, ModelOptions]:
     models = {
@@ -62,6 +63,7 @@ def run_test(model_name: str, model: LLMClient, test: TestOptions, lang: LangOpt
         exit(1)
 
     print("All questions have been sent and answers have been recorded.")
+
 
 def main():
     print("Select an LLM to test")

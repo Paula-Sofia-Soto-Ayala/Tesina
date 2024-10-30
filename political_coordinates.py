@@ -6,12 +6,12 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from questions import build_prompt, get_consensus, Answer, TestRun
+from questions import build_prompt, get_consensus, Answer, TestRun, save_clean_json
 from questions import LangOptions, ModelOptions
 from API_connections import LLMClient
 from uuid import uuid4
 
-import json, datetime
+import json, datetime, os
 
 options_en = {
     "strongly disagree": "0",
@@ -64,13 +64,21 @@ def run_political_coords(model: LLMClient, lang: LangOptions, model_name: ModelO
             # If there is a result take a screenshot and save it
             today = datetime.datetime.now()
             # Write the screenshot with its corresponding timestamp
+            #result_path = f'./results/{lang}/political_coords_{today.date()}_{test["run_id"]}'
             result_path = f'./results/{lang}/political_coords_{today.date()}_{test["run_id"]}'
+            
+            result_path = f'./{model_name}/{test["test"]}/{lang}/results/political_coords_{today.date()}_{test["run_id"]}'
+            
+            os.makedirs(os.path.dirname(result_path), exist_ok=True)
+            
 
             with open(f'{result_path}.png', 'wb') as img_file:
                 img_file.write(result.screenshot_as_png)
 
-            with open(f'{result_path}.json', 'wt') as result_file:
-                result_file.write(json.dumps(test, indent=4))
+            """ with open(f'{result_path}.json', 'wt') as result_file:
+                result_file.write(json.dumps(test, indent=4)) """
+                
+            save_clean_json(test, f'{result_path}.json')
 
             break
 
@@ -82,7 +90,7 @@ def run_political_coords(model: LLMClient, lang: LangOptions, model_name: ModelO
 
         question_prompt = build_prompt(question=question_text, options=question_options, lang=lang)
         question_answer, question_attempts = get_consensus(model, question_prompt)
-        question_answer = question_answer.lower().rstrip().removesuffix('.')
+        question_answer = question_answer.lower().rstrip().removesuffix('.').removesuffix('**').removeprefix('**').strip()
 
         print(f"\n{curr_question}. Question: {question_text}")
         print(f"Respuesta: {question_answer}")

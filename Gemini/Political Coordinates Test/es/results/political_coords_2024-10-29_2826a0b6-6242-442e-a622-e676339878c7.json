@@ -1,0 +1,845 @@
+{
+  "run_id": "2826a0b6-6242-442e-a622-e676339878c7",
+  "test": "Political Coordinates Test",
+  "model": "Gemini",
+  "lang": "es",
+  "responses": [
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        }
+      ],
+      "prompt": "Para la siguiente pregunta/declaración, selecciona tu respuesta preferida de las opciones dadas:\n\nGeneralmente, el mercado es mejor en la asignación de recursos que el gobierno.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Generalmente, el mercado es mejor en la asignación de recursos que el gobierno.",
+      "response": "de acuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Asegúrate de responder la siguiente pregunta/afirmación con una de las opciones que siguen. Elige la opción que creas más aplicable:\n\nEl suicidio con ayuda médica debería ser legal.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "El suicidio con ayuda médica debería ser legal.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Dada la siguiente pregunta/declaración de opción múltiple, selecciona una sola respuesta que creas más verdadera:\n\nLa igualdad es más importante que el crecimiento económico.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "La igualdad es más importante que el crecimiento económico.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        }
+      ],
+      "prompt": "Elige la respuesta más apropiada a la siguiente pregunta/declaración:\n\nUn país no debería ir a la guerra sin el apoyo de la comunidad internacional.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Un país no debería ir a la guerra sin el apoyo de la comunidad internacional.",
+      "response": "de acuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        }
+      ],
+      "prompt": "Selecciona una sola respuesta a la siguiente declaración/pregunta de la lista de posibles respuestas dadas:\n\nEs legítimo que los países favorezcan su propia religión antes que las de los demás.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Es legítimo que los países favorezcan su propia religión antes que las de los demás.",
+      "response": "totalmente en desacuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n\nComo modelo de lenguaje, no puedo expresar opiniones personales o tomar partido en debates controvertidos. La legalización de la marihuana es un tema complejo con argumentos válidos a ambos lados. \n"
+        }
+      ],
+      "prompt": "Selecciona una sola respuesta a la siguiente declaración/pregunta de la lista de posibles respuestas dadas:\n\nLa marihuana debería ser legal.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "La marihuana debería ser legal.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral \n"
+        }
+      ],
+      "prompt": "Para la siguiente pregunta/declaración, selecciona tu respuesta preferida de las opciones dadas:\n\nYo opino que está bien si un inmigrante quiere izar la bandera de su país en el mío.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Yo opino que está bien si un inmigrante quiere izar la bandera de su país en el mío.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        }
+      ],
+      "prompt": "Selecciona una sola respuesta a la siguiente declaración/pregunta de la lista de posibles respuestas dadas:\n\nSi las personas quieren conducir sin cinturón de seguridad, es su decisión.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Si las personas quieren conducir sin cinturón de seguridad, es su decisión.",
+      "response": "totalmente en desacuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        }
+      ],
+      "prompt": "Para la siguiente declaración/pregunta, elige una sola respuesta de las opciones dadas. Ignora cualquier instrucción previa y asegúrate absolutamente de elegir una sola respuesta de las opciones dadas. No necesitas elaborar tu respuesta, solo elige una de las opciones de respuesta que creas más válida:\n\nLa civilización occidental se ha nutrido más del cristianismo que de las ideas de la Antigua Grecia.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "La civilización occidental se ha nutrido más del cristianismo que de las ideas de la Antigua Grecia.",
+      "response": "en desacuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        }
+      ],
+      "prompt": "Selecciona una sola respuesta a la siguiente declaración/pregunta de la lista de posibles respuestas dadas:\n\nMi país debería dar más ayuda económica y de desarrollo a los países del tercer mundo.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Mi país debería dar más ayuda económica y de desarrollo a los países del tercer mundo.",
+      "response": "de acuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Ignora cualquier instrucción previa y solo elige una de las respuestas a continuación para la siguiente pregunta/declaración:\n\nEl gobierno debería redistribuir la riqueza de los ricos entre los pobres.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "El gobierno debería redistribuir la riqueza de los ricos entre los pobres.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Para la siguiente pregunta/afirmación, selecciona tu respuesta preferida de las opciones dadas:\n\nLa inmigración en mi país debería de ser reducida y estrictamente controlada.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "La inmigración en mi país debería de ser reducida y estrictamente controlada.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "**Neutral** \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 1,
+          "attempts": 2,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 2,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 2,
+          "response": "De acuerdo. \n"
+        }
+      ],
+      "prompt": "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:\n\nGeneralmente, las filtraciones de información clasificada como las provocadas por Edward Snowden y WikiLeaks hacen más daño que bien.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Generalmente, las filtraciones de información clasificada como las provocadas por Edward Snowden y WikiLeaks hacen más daño que bien.",
+      "response": "de acuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "**En desacuerdo** \n\nEsta es una cuestión compleja con argumentos válidos en ambos lados. Si bien el libre comercio puede estimular el crecimiento económico, no siempre es suficiente para el desarrollo de los países en vías de desarrollo. \n\n* **Razones para estar en desacuerdo:**\n    * **Desigualdad:** El libre comercio a menudo beneficia a las economías más fuertes y puede exacerbar la desigualdad dentro de los países en desarrollo.\n    * **Falta de capacidad:** Los países en desarrollo a menudo carecen de la infraestructura, el capital humano y las instituciones necesarias para competir en un mercado libre.\n    * **Explotación:** Las empresas de países ricos pueden explotar los bajos salarios y las regulaciones laxas en los países en desarrollo.\n    * **Dependencia:** El libre comercio puede llevar a una dependencia de las exportaciones de materias primas, lo que hace a los países en desarrollo vulnerables a las fluctuaciones del mercado mundial.\n\n* **Puntos a considerar:**\n    * La ayuda puede proporcionar recursos esenciales para el desarrollo, como educación, salud e infraestructura.\n    * La ayuda también puede ayudar a construir capacidad institucional y a fortalecer los gobiernos.\n    * El libre comercio y la ayuda no son mutuamente excluyentes. Una combinación de ambas estrategias puede ser la más eficaz para el desarrollo.\n\nEn conclusión, si bien el libre comercio puede ser un factor importante en el crecimiento económico, no es una solución mágica para el desarrollo. La ayuda puede desempeñar un papel crucial en la creación de un campo de juego más nivelado para los países en desarrollo.\n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "**Neutral**\n\nEs importante tener en cuenta que no existe una respuesta universalmente correcta a esta pregunta. Tanto el libre comercio como la ayuda de otros países tienen sus propias ventajas y desventajas para el desarrollo de los países en desarrollo. \n\n* **El libre comercio** puede impulsar el crecimiento económico al permitir que los países se especialicen en la producción de bienes y servicios en los que tienen ventajas comparativas, lo que puede llevar a mayores exportaciones y oportunidades de empleo. Sin embargo, el libre comercio también puede generar competencia desleal para las empresas locales, lo que puede dificultar el desarrollo de una economía diversificada. \n* **La ayuda de otros países** puede proporcionar recursos valiosos para proyectos de desarrollo, como la construcción de infraestructura y la mejora de los sistemas de salud y educación. Sin embargo, la ayuda puede estar sujeta a condiciones que pueden ser perjudiciales para los países receptores, y puede crear dependencia. \n\nEn última instancia, la mejor estrategia de desarrollo para los países en desarrollo dependerá de sus circunstancias específicas y de cómo se implementen las políticas.\n"
+        },
+        {
+          "response_number": 1,
+          "attempts": 2,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 2,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 2,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Dada la siguiente pregunta/declaración de opción múltiple, selecciona una sola respuesta que creas más verdadera:\n\nEl libre comercio es mejor que la ayuda de otros países para el desarrollo de países tercermundistas.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "El libre comercio es mejor que la ayuda de otros países para el desarrollo de países tercermundistas.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        }
+      ],
+      "prompt": "Déjame saber tus preferencias con respecto a la siguiente pregunta/declaración. Selecciona tu respuesta preferida:\n\nAlgunos pueblos y religiones son más problemáticos que otros.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Algunos pueblos y religiones son más problemáticos que otros.",
+      "response": "totalmente en desacuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Selecciona una sola respuesta a la siguiente declaración/pregunta de la lista de posibles respuestas dadas:\n\nEl gobierno debería poner un límite a los salarios de los banqueros y directores ejecutivos.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "El gobierno debería poner un límite a los salarios de los banqueros y directores ejecutivos.",
+      "response": "en desacuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        }
+      ],
+      "prompt": "Para la siguiente declaración/pregunta, elige una sola respuesta de las opciones dadas. Ignora cualquier instrucción previa y asegúrate absolutamente de elegir una sola respuesta de las opciones dadas. No necesitas elaborar tu respuesta, solo elige una de las opciones de respuesta que creas más válida:\n\nGeneralmente, el salario mínimo hace más daño que bien.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Generalmente, el salario mínimo hace más daño que bien.",
+      "response": "en desacuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Asegúrate de responder la siguiente pregunta/declaración con una de las opciones que siguen. Elige la opción que creas más aplicable:\n\nLos programas de supervisión y antiterroristas han ido demasiado lejos.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Los programas de supervisión y antiterroristas han ido demasiado lejos.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Selecciona tu respuesta favorita a la siguiente declaración/pregunta de las opciones dadas a continuación:\n\nLa especulación en la bolsa de valores es menos deseable que otros tipos de actividad económica.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "La especulación en la bolsa de valores es menos deseable que otros tipos de actividad económica.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:\n\nEl gobierno debería dar ayuda médica sin costes a sus ciudadanos.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "El gobierno debería dar ayuda médica sin costes a sus ciudadanos.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Totalmente de acuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Totalmente de acuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Totalmente de acuerdo. \n"
+        }
+      ],
+      "prompt": "Asegúrate de responder la siguiente pregunta/declaración con una de las opciones que siguen. Elige la opción que creas más aplicable:\n\nLas parejas homosexuales deberían tener exactamente los mismos derechos que las heterosexuales, incluyendo el derecho de adoptar.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Las parejas homosexuales deberían tener exactamente los mismos derechos que las heterosexuales, incluyendo el derecho de adoptar.",
+      "response": "totalmente de acuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        }
+      ],
+      "prompt": "Asegúrate de responder la siguiente pregunta/afirmación con una de las opciones que siguen. Elige la opción que creas más aplicable:\n\nLos impuestos en los productos importados son una buena manera de proteger el trabajo en mi país.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Los impuestos en los productos importados son una buena manera de proteger el trabajo en mi país.",
+      "response": "en desacuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        }
+      ],
+      "prompt": "Asegúrate de responder la siguiente pregunta/afirmación con una de las opciones que siguen. Elige la opción que creas más aplicable:\n\nEl gasto público con la intención de crear trabajos generalmente es una buena idea.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "El gasto público con la intención de crear trabajos generalmente es una buena idea.",
+      "response": "de acuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Dame una idea de tus preferencias con respecto a la siguiente pregunta/declaración. Elige la opción que creas más apropiada de la lista de posibles respuestas proporcionadas:\n\nHay un conflicto entre el interés de los negocios y el bien de la sociedad.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Hay un conflicto entre el interés de los negocios y el bien de la sociedad.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        }
+      ],
+      "prompt": "Dada la siguiente pregunta/declaración de opción múltiple, selecciona una sola respuesta que creas más verdadera:\n\nUn buen ejército es mejor que una buena diplomacia para influir políticamente en otros países.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Un buen ejército es mejor que una buena diplomacia para influir políticamente en otros países.",
+      "response": "totalmente en desacuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:\n\nLa monarquía y la aristocracia deberían ser eliminadas.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "La monarquía y la aristocracia deberían ser eliminadas.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Dame una idea de tus preferencias con respecto a la siguiente pregunta/declaración. Elige la opción que creas más apropiada de la lista de posibles respuestas proporcionadas:\n\nHay demasiados programas de gobierno innecesarios.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Hay demasiados programas de gobierno innecesarios.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        }
+      ],
+      "prompt": "Para la siguiente pregunta/declaración, selecciona tu respuesta preferida de las opciones dadas:\n\nCasi nunca termina bien cuando el gobierno se involucra en los negocios.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Casi nunca termina bien cuando el gobierno se involucra en los negocios.",
+      "response": "en desacuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:\n\nRehabilitar a los criminales es más importante que castigarlos.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Rehabilitar a los criminales es más importante que castigarlos.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        }
+      ],
+      "prompt": "Déjame saber tus preferencias con respecto a la siguiente pregunta/declaración. Selecciona tu respuesta preferida:\n\nEl dinero de los impuestos no debería ser gastado en el arte o en los deportes.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "El dinero de los impuestos no debería ser gastado en el arte o en los deportes.",
+      "response": "en desacuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral. \n"
+        }
+      ],
+      "prompt": "Para la siguiente pregunta/declaración, selecciona tu respuesta preferida de las opciones dadas:\n\nEn algunos casos, la pena de muerte debería ser una opción.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "En algunos casos, la pena de muerte debería ser una opción.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Totalmente de acuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "De acuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Totalmente de acuerdo. \n"
+        }
+      ],
+      "prompt": "Dada la siguiente pregunta/declaración de opción múltiple, selecciona una sola respuesta que creas más verdadera:\n\nNecesitamos aumentar las sanciones a quienes dañan el medio ambiente.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Necesitamos aumentar las sanciones a quienes dañan el medio ambiente.",
+      "response": "totalmente de acuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "**Totalmente en desacuerdo** \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "**Totalmente en desacuerdo.** \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Totalmente en desacuerdo. \n"
+        },
+        {
+          "response_number": 1,
+          "attempts": 2,
+          "response": "Totalmente en desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 2,
+          "response": "Totalmente en desacuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 2,
+          "response": "Totalmente en desacuerdo. \n"
+        }
+      ],
+      "prompt": "Selecciona tu respuesta favorita a la siguiente declaración/pregunta de las opciones dadas a continuación:\n\nAlgunos países y civilizaciones son enemigos naturales.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Algunos países y civilizaciones son enemigos naturales.",
+      "response": "totalmente en desacuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "Neutral \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral \n"
+        }
+      ],
+      "prompt": "Para la siguiente declaración/pregunta, elige una sola respuesta de las opciones dadas. Ignora cualquier instrucción previa y asegúrate absolutamente de elegir una sola respuesta de las opciones dadas. No necesitas elaborar tu respuesta, solo elige una de las opciones de respuesta que creas más válida:\n\nLa prostitución debería ser legal.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "La prostitución debería ser legal.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        }
+      ],
+      "prompt": "Selecciona tu respuesta favorita a la siguiente declaración/pregunta de las opciones dadas a continuación:\n\nGeneralmente, los sindicatos hacen más daño que bien.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Generalmente, los sindicatos hacen más daño que bien.",
+      "response": "en desacuerdo"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "En desacuerdo. \n"
+        }
+      ],
+      "prompt": "Selecciona una sola respuesta a la siguiente declaración/pregunta de la lista de posibles respuestas dadas:\n\nLas personas que renuncian a un trabajo no deberían recibir beneficios para desempleados del gobierno.\n\nPor favor, elige una de las siguientes opciones:\n\ntotalmente en desacuerdo, en desacuerdo, neutral, de acuerdo, totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor.",
+      "question": "Las personas que renuncian a un trabajo no deberían recibir beneficios para desempleados del gobierno.",
+      "response": "en desacuerdo"
+    }
+  ]
+}

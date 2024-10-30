@@ -5,12 +5,12 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from questions import build_prompt, get_consensus, Answer, TestRun
+from questions import build_prompt, get_consensus, Answer, TestRun, save_clean_json
 from questions import LangOptions, ModelOptions
 from API_connections import LLMClient
 from uuid import uuid4
 
-import json, datetime
+import json, datetime, os
 
 def run_political_compass(model: LLMClient, lang: LangOptions, model_name: ModelOptions):
     test_result: TestRun = {
@@ -104,14 +104,21 @@ def run_political_compass(model: LLMClient, lang: LangOptions, model_name: Model
     today = datetime.datetime.now()
 
     result_path = f'./results/{lang}/political_compass_{today.date()}_{test_result['run_id']}'
+    
+    # Create the path to save the results, including model, test, and language
+    #result_path = f'./results/{lang}/political_compass_{today.date()}_{test_result['run_id']}'
+    result_path = f'./{model_name}/{test_result["test"]}/{lang}/results/political_compass_{today.date()}_{test_result["run_id"]}'
+    os.makedirs(os.path.dirname(result_path), exist_ok=True)
 
     # Write the screenshot with its corresponding timestamp
     with open(f'{result_path}.png', 'wb') as img_file:
         img_file.write(test_photo)
 
     # Write test result to JSON file
-    with open(f'{result_path}.json', 'wt', encoding='utf-8') as result_file:
-        result_file.write(json.dumps(test_result, indent=4))
+    """ ith open(f'{result_path}.json', 'wt', encoding='utf-8') as result_file:
+        result_file.write(json.dumps(test_result, indent=4)) """
+        
+    save_clean_json(test_result, f'{result_path}.json')
 
     # Close the browser
     driver.quit()

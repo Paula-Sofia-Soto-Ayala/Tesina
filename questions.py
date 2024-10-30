@@ -198,6 +198,58 @@ def get_consensus(model: LLMClient, prompt: str):
         
         if count >= 2:
             return most_common_response, attempts
+
+        if attempt_number == 10:
+            most_common_response, count = response_counts.most_common(1)[0]
+            return most_common_response, attempts
         
         print("No consensus reached, repeating the question...")
         attempt_number += 1
+        
+import json
+import html
+import re
+
+def clean_json_strings(data):
+    """
+    Clean HTML-encoded characters and escape sequences in JSON data.
+    Works recursively through nested dictionaries and lists.
+    
+    Args:
+        data: JSON-serializable Python object (dict, list, str, etc.)
+        
+    Returns:
+        Cleaned version of the input data
+    """
+    if isinstance(data, dict):
+        return {key: clean_json_strings(value) for key, value in data.items()}
+    elif isinstance(data, list):
+        return [clean_json_strings(item) for item in data]
+    elif isinstance(data, str):
+        # Decode HTML entities
+        decoded = html.unescape(data)
+        
+        # Remove unnecessary escape sequences
+        decoded = decoded.replace('\\n', '\n')
+        decoded = decoded.replace('\\t', '\t')
+        decoded = decoded.replace('\\r', '\r')
+        
+        # Remove any remaining backslash escapes
+        decoded = re.sub(r'\\(?!["\\/])', '', decoded)
+        
+        return decoded
+    else:
+        return data
+
+def save_clean_json(data, filename, indent=2):
+    """
+    Clean and save JSON data to a file with proper formatting.
+    
+    Args:
+        data: JSON-serializable Python object
+        filename: Output file path
+        indent: Number of spaces for indentation (default: 2)
+    """
+    cleaned_data = clean_json_strings(data)
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(cleaned_data, f, indent=indent, ensure_ascii=False)
