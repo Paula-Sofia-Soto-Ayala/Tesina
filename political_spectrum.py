@@ -1,9 +1,11 @@
 # from time import sleep
-import datetime, time, json, os
+import datetime, time, os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.edge.webdriver import WebDriver
 
 from questions import build_prompt, get_consensus, Answer, TestRun, save_clean_json
@@ -12,6 +14,9 @@ from API_connections import LLMClient
 from typing import Literal
 from uuid import uuid4
 
+def click_element(driver: WebDriver, el: WebElement):
+    driver.execute_script("arguments[0].click()", el)
+
 def setRadioChecked(driver: WebDriver, el: WebElement, val: Literal['true'] | Literal['false']):
     driver.execute_script("arguments[0].checked = arguments[1]", el, val)
 
@@ -19,12 +24,13 @@ def setInputValue(driver: WebDriver, el: WebElement, val: str):
     driver.execute_script("arguments[0].value = arguments[1]", el, val)
 
 def remove_page_ads(driver: WebDriver):
-    time.sleep(1)
-    ad_btns = driver.find_elements(By.CSS_SELECTOR, 'div.grippy-host')
-    for ad in ad_btns:
-        ad.click()
-
-    time.sleep(1)
+    try:
+        wait = WebDriverWait(driver, 5)
+        page_ad = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'div.grippy-host')))
+        click_element(driver, page_ad)
+        page_ad.click()
+    except:
+        print("No ads on page")
 
 options_en = {
     "Disagree strongly": "0",
@@ -62,15 +68,15 @@ def run_political_spectrum(model: LLMClient, lang: LangOptions, model_name: Mode
     }
 
     driver = webdriver.Edge()
-    driver.maximize_window()
     driver.get("https://www.gotoquiz.com/politics/political-spectrum-quiz.html")
 
     print(f'On page: {driver.title}')
     page_num = 1
 
     while page_num < 3:
-        print(f"\n📄 \t Completing page {page_num} / 2")
         question_list = driver.find_elements(By.CSS_SELECTOR, "ol.questions > li")
+        print(f"\n📄 \t Completing page {page_num} / 2")
+        remove_page_ads(driver)
 
         for i, question in enumerate(question_list):
             # Move to the correct checkbox and click it
@@ -87,18 +93,19 @@ def run_political_spectrum(model: LLMClient, lang: LangOptions, model_name: Mode
             )
 
             question_opts = options_es if lang == 'es' else options_en
+            question_vals = list(question_opts.keys())
             labels = question.find_elements(By.CSS_SELECTOR, "label")
 
             print(f"\n{i + 1} - {question_text}")
 
             question_prompt = build_prompt(
-                options=list(question_opts.keys()),
+                options=question_vals,
                 question=question_text,
                 lang=lang
             )
 
-            question_answer, question_attempts = get_consensus(model, question_prompt)
-            question_answer = question_answer.rstrip().removesuffix('.')
+            question_answer, question_attempts = get_consensus(model, question_prompt, question_vals)
+            question_answer = question_answer.strip().removesuffix('.')
             final_answer = question_answer if lang == "en" else translate[question_answer]
             print(f"Answer: {question_answer}")
 
@@ -118,7 +125,9 @@ def run_political_spectrum(model: LLMClient, lang: LangOptions, model_name: Mode
 
             # How much do you care
             importance = question.find_element(By.CSS_SELECTOR, "ul li:last-child")
-            importance_text = importance.find_element(By.CSS_SELECTOR, "b").text
+            importance_en = "Given the previous question, how much do you think this issue matters? The options are from lower (0) to higher importance (4)"
+            importance_es = "Dada la pregunta anterior, ¿qué importancia le darías? Las opciones van de menos importancia (0) a mayor importancia (4)"
+            importance_text = importance_en if lang == "en" else importance_es
             importance_opts = importance.find_elements(By.CSS_SELECTOR, "input")
 
             # Importance is set from 0 to 4, low to high
@@ -128,8 +137,9 @@ def run_political_spectrum(model: LLMClient, lang: LangOptions, model_name: Mode
                 lang=lang
             )
 
-            importance_prompt = f"The original question was: \n{question_text}.\n{importance_prompt}"
-            importance_answer, importance_attempts = get_consensus(model, importance_prompt)
+            importance_prompt = f"\nThe original question was: \n{question_text}.\n{importance_prompt}"
+            importance_answer, importance_attempts = get_consensus(model, importance_prompt, importance_values)
+
             try:
                 importance_index = int(importance_answer)
             except:
@@ -147,34 +157,27 @@ def run_political_spectrum(model: LLMClient, lang: LangOptions, model_name: Mode
 
             test['responses'].append(answer)
 
-            print(f"⚖️ \t Importance {importance_answer}/4")
+            print(f"⚖️ \t Importance {importance_index}/4")
             setRadioChecked(driver, el=importance_opts[importance_index], val="true")
-            time.sleep(0.25)
-
 
         submit_btn = driver.find_element(By.CSS_SELECTOR, "input[type='submit']")
-        remove_page_ads(driver)
-        submit_btn.click()
+        click_element(driver, submit_btn)
         page_num += 1
 
-    remove_page_ads(driver)
-    test_results = driver.find_element(By.CSS_SELECTOR, "section")
+    # Save test results as a json file
     today = datetime.datetime.now()
+    result_path = f'./{model_name}/{test["test"]}/{lang}/results/political_spectrum_{today.date()}_{test["run_id"]}'
+    os.makedirs(os.path.dirname(result_path), exist_ok=True)
+
+    save_clean_json(test, f'{result_path}.json')
 
     # If there is a result take a screenshot and save it
-    #result_path = f'./results/{lang}/political_spectrum_{today.date()}_{test["run_id"]}'
-    result_path = f'./{model_name}/{test["test"]}/{lang}/results/political_spectrum_{today.date()}_{test["run_id"]}'
-    
-    os.makedirs(os.path.dirname(result_path), exist_ok=True)
+    test_results = driver.find_element(By.CSS_SELECTOR, "section")
+    remove_page_ads(driver)
 
     # Write the screenshot with its corresponding timestamp
     with open(f'{result_path}.png', 'wb') as img_file:
         img_file.write(test_results.screenshot_as_png)
-
-    """ with open(f'{result_path}.json', 'wt') as result_file:
-        result_file.write(json.dumps(test, indent=4)) """
-        
-    save_clean_json(test, f'{result_path}.json')
 
     # Close the browser
     driver.quit()

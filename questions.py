@@ -13,13 +13,15 @@ type LangOptions = Literal["en"] | Literal["es"]
 
 # Class for an LLM response attempt for a particular question
 class Attempt(TypedDict):
+    failure_reason: str | None
     response_number: int
+    is_failure: bool
     response: str
     attempts: int
 
 # Class for a test answer, includes the question, its response, and the prompt used by the LLM.
 class Answer(TypedDict):
-    importance_attempts: list[Attempt]
+    importance_attempts: list[Attempt] | None
     importance: str | None
     attemps: list[Attempt]
     question: str
@@ -29,7 +31,7 @@ class Answer(TypedDict):
 # Class for a test run file, includes a list of responses and a test ID
 class TestRun(TypedDict):
     model: ModelOptions
-    test: TestOptions
+    test: str | TestOptions
     lang: LangOptions
     responses: list[Answer]
     run_id: str
@@ -150,16 +152,18 @@ prefix_es = [
     "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:"
 ]
 
+failure_prompt = "Would you mind explaining why you'd prefer not to answer the previous question? This would help me better understand our conversation. If possible answer in the original language of the question, either english or spanish."
+
 def get_random_prefix(lang: Literal["en"] | Literal["es"]):
     prefix = prefix_en if lang == "en" else prefix_es
     return random.choice(prefix)
 
 def build_prompt(question: str, options: list[str], lang: Literal["en"] | Literal["es"]):
     inter_en = "Please choose one of the following options:"
-    sufix_en = "Choose your answer from the options above, limit yourself to responding with only one of the available options, please."
+    sufix_en = "Choose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers."
 
     inter_es = "Por favor, elige una de las siguientes opciones:"
-    sufix_es = "Elige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles, por favor."
+    sufix_es = "Elige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
 
     prefix = get_random_prefix(lang)
     inter = inter_en if lang == "en" else inter_es
@@ -175,7 +179,7 @@ def build_prompt(question: str, options: list[str], lang: Literal["en"] | Litera
 
     return "\n\n".join(prompt)
 
-def get_consensus(model: LLMClient, prompt: str):
+def get_consensus(model: LLMClient, prompt: str, options: list[str] = []):
     attempts: list[Attempt] = []
     attempt_number = 1
 
@@ -183,13 +187,26 @@ def get_consensus(model: LLMClient, prompt: str):
         responses: list[Attempt] = []
         for i in range(3):
             # TODO: Change prefix/suffix for every attempt
-            response = model.send_request(prompt)
-            response = response.removesuffix('.')
-            responses.append({
+            response = model.send_request(prompt, options)
+            response = response.strip().removesuffix('.')
+
+            attempt: Attempt = {
+                "failure_reason": None,
                 "response_number": i + 1,
                 "attempts": attempt_number,
-                "response": response
-            })
+                "response": response,
+                "is_failure": True
+            }
+
+            # If the response is not a valid option mark it as a failure
+            for option in options:
+                if option.lower() == response.lower():
+                    attempt["is_failure"] = False
+
+            if attempt["is_failure"]:
+                attempt["failure_reason"] = model.send_request(failure_prompt, options=[])
+
+            responses.append(attempt)
 
         attempts.extend(responses)
         response_counts = Counter([r["response"] for r in responses])
@@ -199,11 +216,11 @@ def get_consensus(model: LLMClient, prompt: str):
         if count >= 2:
             return most_common_response, attempts
 
-        if attempt_number == 10:
+        if attempt_number >= 3:
             most_common_response, count = response_counts.most_common(1)[0]
             return most_common_response, attempts
         
-        print("No consensus reached, repeating the question...")
+        print("\nModel hasn't reached consensus, retrying...")
         attempt_number += 1
         
 import json
@@ -250,6 +267,8 @@ def save_clean_json(data, filename, indent=2):
         filename: Output file path
         indent: Number of spaces for indentation (default: 2)
     """
+
+    print(f"Saving {filename}...")
     cleaned_data = clean_json_strings(data)
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(cleaned_data, f, indent=indent, ensure_ascii=False)

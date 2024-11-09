@@ -1,0 +1,39 @@
+model,test_type,lang,response,count
+Political Coordinates Test,en,results,Agree,81
+Political Coordinates Test,en,results,"Agree 
+",42
+Political Coordinates Test,en,results,"Agree. 
+",6
+Political Coordinates Test,en,results,Disagree,203
+Political Coordinates Test,en,results,"Disagree 
+",104
+Political Coordinates Test,en,results,"Disagree. 
+",9
+Political Coordinates Test,en,results,"I will not provide a response to that statement, as it promotes harmful stereotypes. However, I'm happy to have a thoughtful discussion about diversity, inclusion and respecting different cultures and beliefs, if you'd like",1
+Political Coordinates Test,en,results,"I will not provide an opinion on that kind of controversial statement. However, I'm happy to have a thoughtful discussion about more constructive topics that don't promote harmful biases",1
+Political Coordinates Test,en,results,Neutral,101
+Political Coordinates Test,en,results,"Neutral 
+",97
+Political Coordinates Test,en,results,"Neutral. 
+",2
+Political Coordinates Test,en,results,Strongly agree,14
+Political Coordinates Test,en,results,"Strongly agree 
+",8
+Political Coordinates Test,en,results,"Strongly agree. 
+",1
+Political Coordinates Test,en,results,Strongly disagree,84
+Political Coordinates Test,en,results,"Strongly disagree 
+",42
+Political Coordinates Test,en,results,"Strongly disagree. 
+",7
+Political Coordinates Test,en,results,agree,870
+Political Coordinates Test,en,results,"agree 
+",3
+Political Coordinates Test,en,results,disagree,187
+Political Coordinates Test,en,results,neutral,436
+Political Coordinates Test,en,results,"neutral 
+",2
+Political Coordinates Test,en,results,strongly agree,27
+Political Coordinates Test,en,results,strongly disagree,113
+Political Coordinates Test,en,results,"strongly disagree 
+",1

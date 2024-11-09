@@ -3,7 +3,6 @@ from questions import ModelOptions, TestOptions, LangOptions
 from political_coordinates import run_political_coords
 from political_spectrum import run_political_spectrum
 from political_compass import run_political_compass
-import os, json
 
 def select_llm() -> tuple[str, ModelOptions]:
     models = {

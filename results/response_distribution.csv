@@ -1,0 +1,29 @@
+model,test,lang,response,count
+Political Compass Test,en,results,Agree,871
+Political Compass Test,en,results,Disagree,888
+Political Compass Test,en,results,Strongly agree,90
+Political Compass Test,en,results,Strongly disagree,499
+Political Compass Test,es,results,De acuerdo,618
+Political Compass Test,es,results,En desacuerdo,522
+Political Compass Test,es,results,Totalmente de acuerdo,151
+Political Compass Test,es,results,Totalmente en desacuerdo,452
+Political Coordinates Test,en,results,agree,335
+Political Coordinates Test,en,results,disagree,162
+Political Coordinates Test,en,results,neutral,199
+Political Coordinates Test,en,results,strongly agree,16
+Political Coordinates Test,en,results,strongly disagree,80
+Political Coordinates Test,es,results,de acuerdo,281
+Political Coordinates Test,es,results,en desacuerdo,103
+Political Coordinates Test,es,results,neutral,279
+Political Coordinates Test,es,results,totalmente de acuerdo,34
+Political Coordinates Test,es,results,totalmente en desacuerdo,95
+Political Spectrum Quiz,en,results,Agree,366
+Political Spectrum Quiz,en,results,Agree strongly,136
+Political Spectrum Quiz,en,results,Disagree,231
+Political Spectrum Quiz,en,results,Disagree strongly,328
+Political Spectrum Quiz,en,results,Neutral,158
+Political Spectrum Quiz,es,results,De acuerdo,434
+Political Spectrum Quiz,es,results,En desacuerdo,123
+Political Spectrum Quiz,es,results,Neutral,216
+Political Spectrum Quiz,es,results,Totalmente de acuerdo,67
+Political Spectrum Quiz,es,results,Totalmente en desacuerdo,174

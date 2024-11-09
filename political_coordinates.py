@@ -1,17 +1,17 @@
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.edge.webdriver import WebDriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
 
 from questions import build_prompt, get_consensus, Answer, TestRun, save_clean_json
 from questions import LangOptions, ModelOptions
 from API_connections import LLMClient
 from uuid import uuid4
 
-import json, datetime, os
+import datetime, os
 
 options_en = {
     "strongly disagree": "0",
@@ -31,6 +31,9 @@ options_es = {
 
 es_url = 'https://www.idrlabs.com/es/coordenadas-politicas/prueba.php'
 en_url = 'https://www.idrlabs.com/political-coordinates/test.php'
+
+def click_element(driver: WebDriver, el: WebElement):
+    driver.execute_script("arguments[0].click()", el)
 
 def setInputValue(driver: WebDriver, el: WebElement, val: str):
     driver.execute_script("arguments[0].value = arguments[1]", el, val)
@@ -53,7 +56,8 @@ def run_political_coords(model: LLMClient, lang: LangOptions, model_name: ModelO
     curr_question = 1
     wait = WebDriverWait(driver, 5)
     page_ad = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'span.adthrive-close')))
-    page_ad.click()
+    click_element(driver, page_ad)
+    # page_ad.click()
 
     while True:
         # Check if we're at the end of the test, and the result is visible
@@ -64,21 +68,13 @@ def run_political_coords(model: LLMClient, lang: LangOptions, model_name: ModelO
             # If there is a result take a screenshot and save it
             today = datetime.datetime.now()
             # Write the screenshot with its corresponding timestamp
-            #result_path = f'./results/{lang}/political_coords_{today.date()}_{test["run_id"]}'
-            result_path = f'./results/{lang}/political_coords_{today.date()}_{test["run_id"]}'
-            
             result_path = f'./{model_name}/{test["test"]}/{lang}/results/political_coords_{today.date()}_{test["run_id"]}'
             
             os.makedirs(os.path.dirname(result_path), exist_ok=True)
-            
+            save_clean_json(test, f'{result_path}.json')
 
             with open(f'{result_path}.png', 'wb') as img_file:
                 img_file.write(result.screenshot_as_png)
-
-            """ with open(f'{result_path}.json', 'wt') as result_file:
-                result_file.write(json.dumps(test, indent=4)) """
-                
-            save_clean_json(test, f'{result_path}.json')
 
             break
 
@@ -86,11 +82,12 @@ def run_political_coords(model: LLMClient, lang: LangOptions, model_name: ModelO
         question_text = driver.find_element(By.CSS_SELECTOR, 'p.question').text
         question_input = driver.find_element(By.CSS_SELECTOR, 'input[name="answer"]')
         question_options = options_es if lang == 'es' else options_en
+        question_values = list(question_options.keys())
         next_button = driver.find_element(By.CSS_SELECTOR, 'span.qnav.next')
 
-        question_prompt = build_prompt(question=question_text, options=question_options, lang=lang)
-        question_answer, question_attempts = get_consensus(model, question_prompt)
-        question_answer = question_answer.lower().rstrip().removesuffix('.').removesuffix('**').removeprefix('**').strip()
+        question_prompt = build_prompt(question=question_text, options=question_values, lang=lang)
+        question_answer, question_attempts = get_consensus(model, question_prompt, question_values)
+        question_answer = question_answer.lower().strip().removesuffix('.').removesuffix('**').removeprefix('**').strip()
 
         print(f"\n{curr_question}. Question: {question_text}")
         print(f"Respuesta: {question_answer}")
@@ -109,7 +106,8 @@ def run_political_coords(model: LLMClient, lang: LangOptions, model_name: ModelO
 
         # Click the input and move to the next question
         test['responses'].append(answer)
-        next_button.click()
+        click_element(driver, next_button)
+        # next_button.click()
         curr_question += 1
         sleep(0.25)
 

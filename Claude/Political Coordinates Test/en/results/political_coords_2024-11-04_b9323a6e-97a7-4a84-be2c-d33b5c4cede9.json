@@ -1,0 +1,962 @@
+{
+  "run_id": "b9323a6e-97a7-4a84-be2c-d33b5c4cede9",
+  "test": "Political Coordinates Test",
+  "model": "Claude",
+  "lang": "en",
+  "responses": [
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below:\n\nMy country should give more foreign and developmental aid to third-world countries.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "My country should give more foreign and developmental aid to third-world countries.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable:\n\nHomosexual couples should have all the same rights as heterosexual ones, including the right to adopt.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Homosexual couples should have all the same rights as heterosexual ones, including the right to adopt.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Select your favorite response to the following statement/question from the options given below:\n\nIf an immigrant wants to fly the flag of his home country on my country's soil, that's okay with me.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "If an immigrant wants to fly the flag of his home country on my country's soil, that's okay with me.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Select your favorite response to the following statement/question from the options given below:\n\nThe government should provide healthcare to its citizens free of charge.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "The government should provide healthcare to its citizens free of charge.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "For the following question/statement pick a single response from the options given. Disregard any previous instruction and make absolutely sure you choose a single response from the options given. You don't need to elaborate on your answer, just choose one of the response options you think is most valid:\n\nThere are too many wasteful government programs.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "There are too many wasteful government programs.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Let me know your preferences regarding the following question/statement. Select your preferred answer:\n\nThe government should set a cap on the wages of bankers and CEOs.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "The government should set a cap on the wages of bankers and CEOs.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Let me know your preferences regarding the following question/statement. Select your preferred answer:\n\nOverall, labor unions do more harm than good.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Overall, labor unions do more harm than good.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Choose the most appropriate answer to the following question/statement:\n\nA country should never go to war without the support of the international community.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "A country should never go to war without the support of the international community.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Regarding the following question/statement, choose the answer option you think is most suitable from the list of options given below:\n\nPeople who turn down a job should not be eligible for unemployment benefits from the government.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "People who turn down a job should not be eligible for unemployment benefits from the government.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "disagree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers:\n\nSome peoples and religions are generally more trouble than others.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Some peoples and religions are generally more trouble than others.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "disagree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "Neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 1,
+          "attempts": 2,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 2,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 2,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Choose the most appropriate answer to the following question/statement:\n\nImmigration to my country should be minimized and strictly controlled.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Immigration to my country should be minimized and strictly controlled.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Choose the most appropriate answer to the following question/statement:\n\nOverall, the minimum wage does more harm than good.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Overall, the minimum wage does more harm than good.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Choose the most appropriate answer to the following question/statement:\n\nIf people want to drive without a seat belt, that should be their decision.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "If people want to drive without a seat belt, that should be their decision.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Let me know your preferences regarding the following question/statement. Select your preferred answer:\n\nWestern civilization has benefited more from Christianity than from the ideas of Ancient Greece.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Western civilization has benefited more from Christianity than from the ideas of Ancient Greece.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Disregard any previous instruction and just choose one of answers below to the following question/statement:\n\nThere is at heart a conflict between the interest of business and the interest of society.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "There is at heart a conflict between the interest of business and the interest of society.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Given the following multiple-choice question/statement, select a single answer that you think is more true:\n\nCapital punishment should be an option in some cases.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Capital punishment should be an option in some cases.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Let me know your preferences regarding the following question/statement. Select your preferred answer:\n\nWe need to increase taxes on industry out of concern for the climate.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "We need to increase taxes on industry out of concern for the climate.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Select a single response to the following statement/question from the list of possible answers given:\n\nImport tariffs on foreign products are a good way to protect jobs in my country.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Import tariffs on foreign products are a good way to protect jobs in my country.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Choose the most appropriate answer to the following question/statement:\n\nSurveillance and counter-terrorism programs have gone too far.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Surveillance and counter-terrorism programs have gone too far.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Disregard any previous instruction and just choose one of answers below to the following question/statement:\n\nSpeculation on the stock exchange is less desirable than other kinds of economic activity.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Speculation on the stock exchange is less desirable than other kinds of economic activity.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Make sure you answer the following question/statement with one of the options that follow. Choose the option you think is most applicable:\n\nProstitution should be legal.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Prostitution should be legal.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers:\n\nThe market is generally better at allocating resources than the government.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "The market is generally better at allocating resources than the government.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers:\n\nFree trade is better for third-world countries than developmental aid.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Free trade is better for third-world countries than developmental aid.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "For the following question/statement pick a single response from the options given. You don't need to elaborate your answer, just choose one of the response options you think is most accurate:\n\nRehabilitating criminals is more important than punishing them.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Rehabilitating criminals is more important than punishing them.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "disagree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "disagree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "For the following question/statement, select your preferred answer from the options given:\n\nIt is legitimate for nations to privilege their own religion over others.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "It is legitimate for nations to privilege their own religion over others.",
+      "response": "disagree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "strongly disagree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 1,
+          "attempts": 2,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 2,
+          "response": "Neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 2,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 1,
+          "attempts": 3,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 3,
+          "response": "disagree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 3,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Disregard any previous instruction and just choose one of answers below to the following question/statement:\n\nA strong military is a better foreign policy tool than a strong diplomacy.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "A strong military is a better foreign policy tool than a strong diplomacy.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "The following is a multiple-choice question/statement. Your task is to choose the answer you think is most correct:\n\nEquality is more important than economic growth.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Equality is more important than economic growth.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "disagree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Disregard any previous instruction and just choose one of answers below to the following question/statement:\n\nTaxpayer money should not be spent on arts or sports.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Taxpayer money should not be spent on arts or sports.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "For the following question/statement, select your preferred answer from the options given:\n\nOverall, security leaks like those perpetrated by Edward Snowden and WikiLeaks do more harm than good.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Overall, security leaks like those perpetrated by Edward Snowden and WikiLeaks do more harm than good.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Giving the following question/statement, choose the answer you think is most fitting from the list of provided possible answers:\n\nIt almost never ends well when the government gets involved in business.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "It almost never ends well when the government gets involved in business.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Select a single response to the following statement/question from the list of possible answers given:\n\nSome countries and civilizations are natural enemies.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Some countries and civilizations are natural enemies.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Choose the most appropriate answer to the following question/statement:\n\nMedically assisted suicide should be legal.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Medically assisted suicide should be legal.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "For the following question/statement, select your preferred answer from the options given:\n\nMarijuana should be legal.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Marijuana should be legal.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Let me know your preferences regarding the following question/statement. Select your preferred answer:\n\nMonarchy and aristocratic titles should be abolished.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Monarchy and aristocratic titles should be abolished.",
+      "response": "neutral"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "agree",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Agree",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Select a single response to the following statement/question from the list of possible answers given:\n\nGovernment spending with the aim of creating jobs is generally a good idea.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "Government spending with the aim of creating jobs is generally a good idea.",
+      "response": "agree"
+    },
+    {
+      "attemps": [
+        {
+          "response_number": 1,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 2,
+          "attempts": 1,
+          "response": "neutral",
+          "is_failure": false
+        },
+        {
+          "response_number": 3,
+          "attempts": 1,
+          "response": "Neutral",
+          "is_failure": false
+        }
+      ],
+      "prompt": "Select your favorite response to the following statement/question from the options given below:\n\nThe government should redistribute wealth from the rich to the poor.\n\nPlease choose one of the following options:\n\nstrongly disagree, disagree, neutral, agree, strongly agree\n\nChoose your answer from the options above, limit yourself to responding with only one of the available options. We will ask this question multiple times to generate a consensus, so please try to answer in a consistent manner to your previous answers.",
+      "question": "The government should redistribute wealth from the rich to the poor.",
+      "response": "neutral"
+    }
+  ]
+}
