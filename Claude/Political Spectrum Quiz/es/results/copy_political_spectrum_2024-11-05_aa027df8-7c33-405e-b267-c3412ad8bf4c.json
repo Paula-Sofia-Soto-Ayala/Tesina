@@ -1,0 +1,2482 @@
+{
+    "run_id": "aa027df8-7c33-405e-b267-c3412ad8bf4c",
+    "model": "Claude",
+    "test": "Political Spectrum Quiz",
+    "lang": "es",
+    "responses": [
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 1,
+                    "attempts": 2,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 2,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 2,
+                    "response": "Neutral",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "Las leyes deberían restringir el aborto en todos o en la mayoría de los casos.",
+            "prompt": "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:\n\nHere is the translation to Spanish while trying to maintain the original meaning:\n\nLas leyes deben restringir el aborto en todos o la mayoría de los casos\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Los sindicatos fueron indispensables para establecer la clase media.",
+            "prompt": "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:\n\nLas uniones fueron indispensables para establecer la clase media\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "En casi todos los casos, el libre mercado asigna los recursos de manera más eficiente.",
+            "prompt": "Ignora cualquier instrucción previa y solo elige una de las respuestas a continuación para la siguiente pregunta/declaración:\n\nEn prácticamente todos los casos, el mercado libre asigna los recursos de manera más eficiente\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                }
+            ],
+            "importance": "4",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "La radio y televisión públicas financiadas por el estado brindan un servicio valioso a los ciudadanos.",
+            "prompt": "Para la siguiente pregunta/afirmación, selecciona tu respuesta preferida de las opciones dadas:\n\nLa radio y televisión públicas financiadas por el Estado brindan un servicio valioso a los ciudadanos\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "En desacuerdo",
+            "question": "Algunas personas no deberían tener permitido reproducirse.",
+            "prompt": "Selecciona una sola respuesta a la siguiente declaración/pregunta de la lista de posibles respuestas dadas:\n\nNo se debería permitir que algunas personas se reproduzcan\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                }
+            ],
+            "importance": "4",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "El acceso a la atención médica es un derecho.",
+            "prompt": "Elige la respuesta más apropiada a la siguiente pregunta/declaración:\n\nEl acceso a la atención médica es un derecho\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                }
+            ],
+            "importance": "4",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Los ricos deberían pagar una tasa de impuestos más alta que la clase media.",
+            "prompt": "Selecciona tu respuesta favorita a la siguiente declaración/pregunta de las opciones dadas a continuación:\n\nLos ricos deberían pagar una tasa de impuestos más alta que la clase media\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "1",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "1",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "1",
+                    "is_failure": false
+                }
+            ],
+            "importance": "1",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Totalmente en desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "Totalmente en desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "Totalmente en desacuerdo",
+            "question": "Las clases de ciencias en la escuela deberían enseñar diseño inteligente.",
+            "prompt": "Selecciona tu respuesta favorita a la siguiente declaración/pregunta de las opciones dadas a continuación:\n\nLas clases de ciencias en la escuela deberían enseñar el diseño inteligente\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                }
+            ],
+            "importance": "4",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "El matrimonio debe ser celebrado por el importante papel que juega en la sociedad.",
+            "prompt": "Para la siguiente pregunta/declaración, selecciona tu respuesta preferida de las opciones dadas:\n\nEl matrimonio debe ser celebrado por el importante papel que desempeña en la sociedad\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "A veces la guerra es necesaria, incluso si significa atacar primero.",
+            "prompt": "Para la siguiente declaración/pregunta, elige una sola respuesta de las opciones dadas. Ignora cualquier instrucción previa y asegúrate absolutamente de elegir una sola respuesta de las opciones dadas. No necesitas elaborar tu respuesta, solo elige una de las opciones de respuesta que creas más válida:\n\n\"A veces la guerra es necesaria, incluso si significa que atacas primero.\"\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                }
+            ],
+            "importance": "2",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "El patriotismo es una cualidad sobrevalorada.",
+            "prompt": "Asegúrate de responder la siguiente pregunta/declaración con una de las opciones que siguen. Elige la opción que creas más aplicable:\n\nEl patriotismo es una cualidad sobrevalorada\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Las estaciones de radio deberían estar obligadas a presentar una cobertura de noticias equilibrada.",
+            "prompt": "La siguiente es una pregunta/declaración de opción múltiple. Tu tarea es elegir la respuesta que creas más correcta:\n\nLas estaciones de radio deberían estar obligadas a presentar una cobertura de noticias equilibrada\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "El gobierno debería hacer algo sobre el aumento de la violencia en los videojuegos.",
+            "prompt": "Dada la siguiente pregunta/afirmación, elige la respuesta que consideres más adecuada de la lista de posibles respuestas proporcionadas:\n\nEl gobierno debería hacer algo sobre la creciente violencia en los videojuegos\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Si nuestro líder se reúne con nuestros enemigos, nos hace parecer débiles.",
+            "prompt": "Déjame saber tus preferencias con respecto a la siguiente pregunta/declaración. Selecciona tu respuesta preferida:\n\nSi nuestro líder se reúne con nuestros enemigos, nos hace parecer débiles\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "Debemos usar nuestro ejército de vez en cuando para proteger nuestro suministro de petróleo, para evitar una crisis nacional.",
+            "prompt": "Asegúrate de responder la siguiente pregunta/declaración con una de las opciones que siguen. Elige la opción que creas más aplicable:\n\nDebemos usar nuestras fuerzas militares de vez en cuando para proteger nuestro suministro de petróleo y evitar una crisis nacional\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "Los derechos fuertes de propiedad de armas protegen a las personas contra la tiranía.",
+            "prompt": "Asegúrate de responder la siguiente pregunta/declaración con una de las opciones que siguen. Elige la opción que creas más aplicable:\n\n\"Los derechos de propiedad de armas de fuego fuertes protegen a la gente contra la tiranía.\"\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "No tiene sentido decir 'Soy espiritual pero no religioso'.",
+            "prompt": "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:\n\nNo tiene sentido decir \"Soy espiritual pero no religioso\"\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "En desacuerdo",
+            "question": "No es responsabilidad del gobierno regular la contaminación.",
+            "prompt": "Dame una idea de tus preferencias con respecto a la siguiente pregunta/declaración. Elige la opción que creas más apropiada de la lista de posibles respuestas proporcionadas:\n\nLa responsabilidad de regular la contaminación no es del gobierno\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "En desacuerdo",
+            "question": "El matrimonio gay debería estar prohibido.",
+            "prompt": "Para la siguiente pregunta/afirmación, selecciona tu respuesta preferida de las opciones dadas:\n\nEl matrimonio entre personas del mismo sexo debería estar prohibido\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Debería ser ilegal usar lenguaje de odio hacia otro grupo racial.",
+            "prompt": "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:\n\nDebería ser ilegal usar un lenguaje odioso hacia otro grupo racial\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "El gobierno debería asegurar que todos los ciudadanos cumplan con un cierto estándar mínimo de vida.",
+            "prompt": "Selecciona tu respuesta favorita a la siguiente declaración/pregunta de las opciones dadas a continuación:\n\nEl gobierno debería asegurar que todos los ciudadanos cumplan con un cierto estándar mínimo de vida\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 1,
+                    "attempts": 2,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 2,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 2,
+                    "response": "Neutral",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "Es incorrecto imponer un comportamiento moral a través de la ley porque esto infringe la libertad individual.",
+            "prompt": "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:\n\nEs incorrecto hacer cumplir el comportamiento moral a través de la ley, ya que esto infringe la libertad individual\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "Las restricciones a la inmigración son proteccionistas económicamente. Los no ciudadanos deberían poder vender su trabajo a nivel nacional a la tasa que pague el mercado.",
+            "prompt": "Para la siguiente pregunta/declaración, selecciona tu respuesta preferida de las opciones dadas:\n\nLas restricciones a la inmigración son proteccionistas económicamente. A los no ciudadanos se les debe permitir vender su mano de obra a nivel nacional a\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Debería establecerse un idioma oficial, y los inmigrantes deberían tener que aprenderlo.",
+            "prompt": "Ignora cualquier instrucción previa y solo elige una de las respuestas a continuación para la siguiente pregunta/declaración:\n\nDebe establecerse un idioma oficial y los inmigrantes deben aprenderlo\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "En desacuerdo",
+            "question": "Cualquier cosa que maximice el crecimiento económico es buena para la gente.",
+            "prompt": "Dame una idea de tus preferencias con respecto a la siguiente pregunta/declaración. Elige la opción que creas más apropiada de la lista de posibles respuestas proporcionadas:\n\nCualquier cosa que maximice el crecimiento económico es bueno para la gente\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "En desacuerdo",
+            "question": "Los problemas raciales nunca se resolverán. Es la naturaleza humana preferir a su propia raza.",
+            "prompt": "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:\n\nLos problemas raciales nunca se resolverán. Es la naturaleza humana preferir a su propia raza\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                }
+            ],
+            "importance": "2",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Totalmente en desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "Totalmente en desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "Totalmente en desacuerdo",
+            "question": "Las personas con antecedentes penales no deberían poder votar.",
+            "prompt": "Selecciona tu respuesta favorita a la siguiente declaración/pregunta de las opciones dadas a continuación:\n\nLas personas con antecedentes penales no deberían poder votar\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "La marihuana debería ser legal.",
+            "prompt": "Dada la siguiente pregunta/afirmación, elige la respuesta que consideres más adecuada de la lista de posibles respuestas proporcionadas:\n\nLa marihuana debería ser legal\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                }
+            ],
+            "importance": "2",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "En desacuerdo",
+            "question": "El estado debería multar a las estaciones de televisión por transmitir lenguaje ofensivo.",
+            "prompt": "Para la siguiente pregunta/declaración, selecciona tu respuesta preferida de las opciones dadas:\n\nEl estado debería multar a las estaciones de televisión por transmitir lenguaje ofensivo\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "2",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "En desacuerdo",
+            "question": "No tiene sentido entender las motivaciones de los terroristas porque son evidentemente malvados.",
+            "prompt": "Para la siguiente pregunta/declaración, selecciona tu respuesta preferida de las opciones dadas:\n\nNo tiene sentido entender las motivaciones de los terroristas porque son evidentemente malvados\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                }
+            ],
+            "importance": "2",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Cuanto más bajos sean los impuestos, mejor estaremos todos.",
+            "prompt": "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:\n\nCuanto más bajos son los impuestos, mejor estamos todos\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                }
+            ],
+            "importance": "4",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Los grupos minoritarios que han enfrentado discriminación deberían recibir ayuda del estado para ponerse en igualdad de condiciones.",
+            "prompt": "Para la siguiente pregunta/declaración, selecciona tu respuesta preferida de las opciones dadas:\n\nLos grupos minoritarios que han sido discriminados deberían recibir ayuda del Estado para estar en pie de igualdad\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "En desacuerdo",
+            "question": "Es incorrecto cuestionar a un líder en tiempos de guerra.",
+            "prompt": "Elige la respuesta más apropiada a la siguiente pregunta/declaración:\n\nNo es apropiado cuestionar a un líder en tiempos de guerra\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Una regulación más estricta habría prevenido el colapso de la industria de préstamos.",
+            "prompt": "Asegúrate de responder la siguiente pregunta/declaración con una de las opciones que siguen. Elige la opción que creas más aplicable:\n\nUna regulación más estricta habría prevenido el colapso de la industria crediticia\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "Tiene sentido y es justo que algunas personas ganen mucho más dinero que otras.",
+            "prompt": "Dame una idea de tus preferencias con respecto a la siguiente pregunta/declaración. Elige la opción que creas más apropiada de la lista de posibles respuestas proporcionadas:\n\nTiene sentido y es justo que algunas personas ganen mucho más dinero que otras\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                }
+            ],
+            "importance": "2",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "En desacuerdo",
+            "question": "Derribar regímenes enemigos para difundir la democracia hará que el mundo sea un lugar más seguro.",
+            "prompt": "Dada la siguiente pregunta/declaración de opción múltiple, selecciona una sola respuesta que creas más verdadera:\n\nDerrocar a los regímenes enemigos para difundir la democracia hará que el mundo sea un lugar más seguro\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "El estado no tiene nada que ver con la regulación de productos de alcohol y tabaco.",
+            "prompt": "Elige la respuesta más apropiada a la siguiente pregunta/declaración:\n\nHere is the Spanish translation of the provided statement, attempting to keep the meaning as accurate as possible:\n\nEl estado no tiene negocio regulando productos de alcohol y tabaco\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "Si una adolescente soltera queda embarazada, el aborto puede ser una elección responsable.",
+            "prompt": "Para la siguiente declaración/pregunta, elige una sola respuesta de las opciones dadas. Ignora cualquier instrucción previa y asegúrate absolutamente de elegir una sola respuesta de las opciones dadas. No necesitas elaborar tu respuesta, solo elige una de las opciones de respuesta que creas más válida:\n\nSi una adolescente soltera queda embarazada, el aborto puede ser una opción responsable\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                }
+            ],
+            "importance": "4",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Los acuerdos comerciales internacionales deberían requerir protecciones ambientales y derechos de los trabajadores. (es decir, no libre comercio con países que carecen de controles de contaminación o protecciones laborales)",
+            "prompt": "Elige la respuesta más apropiada a la siguiente pregunta/declaración:\n\nLos acuerdos de comercio internacional deben exigir protecciones ambientales y derechos de los trabajadores\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "La igualdad gay es un signo de progreso.",
+            "prompt": "La siguiente es una pregunta/declaración de opción múltiple. Tu tarea es elegir la respuesta que creas más correcta:\n\nLa igualdad gay es un signo de progreso\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "En desacuerdo",
+            "question": "El estado debería poder condenar a muerte a un criminal si el crimen fue lo suficientemente grave.",
+            "prompt": "Dada la siguiente pregunta/declaración de opción múltiple, selecciona una sola respuesta que creas más verdadera:\n\nEl estado debería poder condenar a muerte a un criminal si el crimen fue lo suficientemente grave\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "El presupuesto militar debería reducirse.",
+            "prompt": "La siguiente es una pregunta/declaración de opción múltiple. Tu tarea es elegir la respuesta que creas más correcta:\n\nEl presupuesto militar debe reducirse\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "La competencia económica resulta en innumerables innovaciones que mejoran nuestras vidas.",
+            "prompt": "Selecciona una sola respuesta a la siguiente declaración/pregunta de la lista de posibles respuestas dadas:\n\nLa competencia económica da lugar a innumerables innovaciones que mejoran nuestras vidas\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "No es nuestro lugar condenar a otras culturas como atrasadas o bárbaras.",
+            "prompt": "Para la siguiente pregunta/declaración, selecciona tu respuesta preferida de las opciones dadas:\n\nNo es nuestro lugar condenar a otras culturas como atrasadas o bárbaras\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                }
+            ],
+            "importance": "4",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Cuando un grupo está masacrando a otro grupo en alguna parte del mundo, tenemos la responsabilidad de intervenir.",
+            "prompt": "La siguiente es una pregunta/declaración de opción múltiple. Tu tarea es elegir la respuesta que creas más correcta:\n\nCuando un grupo está masacrando a otro grupo en algún lugar del mundo, tenemos la responsabilidad de intervenir\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                }
+            ],
+            "importance": "2",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "En desacuerdo",
+            "question": "Estaríamos mejor si pudiéramos encerrar a algunas de las personas que expresan opiniones políticas radicales y mantenerlas alejadas de la sociedad.",
+            "prompt": "Dada la siguiente pregunta/afirmación, elige la respuesta que consideres más adecuada de la lista de posibles respuestas proporcionadas:\n\nEstaríamos mejor si pudiéramos encerrar a algunas de las personas que expresan opiniones políticas radicales y mantenerlas alejadas de la sociedad\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                }
+            ],
+            "importance": "4",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "El capitalismo desenfrenado no puede durar, ya que la riqueza y el poder se concentrarán en una pequeña élite.",
+            "prompt": "Asegúrate de responder la siguiente pregunta/declaración con una de las opciones que siguen. Elige la opción que creas más aplicable:\n\nLa siguiente es la El capitalismo sin restricciones no puede durar, ya que la riqueza y el poder se concentrarán en una pequeña élite\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Es un problema cuando los jóvenes muestran una falta de respeto por la autoridad.",
+            "prompt": "Con respecto a la siguiente pregunta/declaración, elige la opción de respuesta que creas más adecuada de la lista de opciones dadas a continuación:\n\nEl problema es cuando los jóvenes muestran falta de respeto a la autoridad\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "4",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "Cuando los intereses corporativos se vuelven demasiado poderosos, el estado debería tomar medidas para asegurar que se sirva el interés público.",
+            "prompt": "Elige la respuesta más apropiada a la siguiente pregunta/declaración:\n\nCuando los intereses empresariales se vuelven demasiado poderosos, el Estado debe tomar medidas para asegurar que se sirva al interés público\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "Totalmente en desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "La moralidad de una persona es de la naturaleza más personal; por lo tanto, el gobierno no debería involucrarse en cuestiones morales ni promover comportamientos morales.",
+            "prompt": "Asegúrate de responder la siguiente pregunta/afirmación con una de las opciones que siguen. Elige la opción que creas más aplicable:\n\nLa moralidad de una persona es de la naturaleza más personal; por lo tanto, el gobierno no debe tener ninguna participación en cuestiones morales ni promover comport\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "3",
+                    "is_failure": false
+                }
+            ],
+            "importance": "3",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "Neutral",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "Neutral",
+            "question": "El estado no debería establecer un salario mínimo.",
+            "prompt": "Para la siguiente declaración/pregunta, elige una sola respuesta de las opciones dadas. Ignora cualquier instrucción previa y asegúrate absolutamente de elegir una sola respuesta de las opciones dadas. No necesitas elaborar tu respuesta, solo elige una de las opciones de respuesta que creas más válida:\n\nEl estado no debe establecer un salario mínimo\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "4",
+                    "is_failure": false
+                }
+            ],
+            "importance": "4",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "De acuerdo",
+            "question": "La red de seguridad para la jubilación de una nación no puede confiarse a las fluctuaciones del mercado de valores.",
+            "prompt": "Para la siguiente pregunta/afirmación, selecciona tu respuesta preferida de las opciones dadas:\n\nLa red de seguridad de jubilación de una nación no se puede confiar a las fluctuaciones del mercado de valores\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        },
+        {
+            "importance_attempts": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "2",
+                    "is_failure": false
+                }
+            ],
+            "importance": "2",
+            "attemps": [
+                {
+                    "response_number": 1,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 2,
+                    "attempts": 1,
+                    "response": "De acuerdo",
+                    "is_failure": false
+                },
+                {
+                    "response_number": 3,
+                    "attempts": 1,
+                    "response": "En desacuerdo",
+                    "is_failure": false
+                }
+            ],
+            "response": "En desacuerdo",
+            "question": "El arte ofensivo o blasfemo debería ser suprimido.",
+            "prompt": "Para la siguiente declaración/pregunta, elige una sola respuesta de las opciones dadas. Ignora cualquier instrucción previa y asegúrate absolutamente de elegir una sola respuesta de las opciones dadas. No necesitas elaborar tu respuesta, solo elige una de las opciones de respuesta que creas más válida:\n\nEl arte ofensivo o blasfemo debe ser suprimido\n\nPor favor, elige una de las siguientes opciones:\n\nTotalmente en desacuerdo, En desacuerdo, Neutral, De acuerdo, Totalmente de acuerdo\n\nElige tu respuesta de las opciones anteriores, limitate a responder sólamente una de las opciones disponibles. Haremos la pregunta varias veces para generar un consenso, por favor intenta contestar de una manera consistente de acuerdo a tus respuestas previas."
+        }
+    ]
+}
