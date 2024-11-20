@@ -9,7 +9,7 @@ Este proyecto explora las tendencias de orientación política en modelos de len
 
 ## Instalación  
 
-1. Clona este repositorio:  
+### Clona este repositorio:  
    ```bash
    git clone <URL_DEL_REPOSITORIO>
    cd Tesina
