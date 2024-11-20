@@ -1,8 +1,10 @@
 from API_connections import chatgpt_client, claude_client, gemini_client, LLMClient
-from questions import ModelOptions, TestOptions, LangOptions
 from political_coordinates import run_political_coords
 from political_spectrum import run_political_spectrum
 from political_compass import run_political_compass
+from questions import ModelOptions, TestOptions, LangOptions
+
+
 
 def select_llm() -> tuple[str, ModelOptions]:
     models = {

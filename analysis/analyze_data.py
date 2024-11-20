@@ -1452,31 +1452,31 @@ if __name__ == "__main__":
     
     
     
-    # plot_combined_political_compass_interactive(df, chatgpt, compass)
-    # plot_combined_political_coordinates_interactive(df, chatgpt, coordinates)
-    # plot_combined_political_spectrum_interactive(df, chatgpt, spectrum)
+    plot_combined_political_compass_interactive(df, chatgpt, compass)
+    plot_combined_political_coordinates_interactive(df, chatgpt, coordinates)
+    plot_combined_political_spectrum_interactive(df, chatgpt, spectrum)
     
-    # plot_combined_political_compass_interactive(df, claude, compass)
-    # plot_combined_political_coordinates_interactive(df, claude, coordinates)
-    # plot_combined_political_spectrum_interactive(df, claude, spectrum)
+    plot_combined_political_compass_interactive(df, claude, compass)
+    plot_combined_political_coordinates_interactive(df, claude, coordinates)
+    plot_combined_political_spectrum_interactive(df, claude, spectrum)
     
-    # plot_combined_political_compass_interactive(df, gemini, compass)
-    # plot_combined_political_coordinates_interactive(df, gemini, coordinates)
-    # plot_combined_political_spectrum_interactive(df, gemini, spectrum)
+    plot_combined_political_compass_interactive(df, gemini, compass)
+    plot_combined_political_coordinates_interactive(df, gemini, coordinates)
+    plot_combined_political_spectrum_interactive(df, gemini, spectrum)
     
     
     
-    # plot_model_test_response_distribution_political_compass_pie(df, chatgpt, compass)
-    # plot_model_test_response_distribution_political_coordinates_pie(df, chatgpt, coordinates)
-    # plot_model_test_response_distribution_political_spectrum_pie(df, chatgpt, spectrum)
+    plot_model_test_response_distribution_political_compass_pie(df, chatgpt, compass)
+    plot_model_test_response_distribution_political_coordinates_pie(df, chatgpt, coordinates)
+    plot_model_test_response_distribution_political_spectrum_pie(df, chatgpt, spectrum)
     
-    # plot_model_test_response_distribution_political_compass_pie(df, claude, compass)
-    # plot_model_test_response_distribution_political_coordinates_pie(df, claude, coordinates)
-    # plot_model_test_response_distribution_political_spectrum_pie(df, claude, spectrum)
+    plot_model_test_response_distribution_political_compass_pie(df, claude, compass)
+    plot_model_test_response_distribution_political_coordinates_pie(df, claude, coordinates)
+    plot_model_test_response_distribution_political_spectrum_pie(df, claude, spectrum)
     
-    # plot_model_test_response_distribution_political_compass_pie(df, gemini, compass)
-    # plot_model_test_response_distribution_political_coordinates_pie(df, gemini, coordinates)
-    # plot_model_test_response_distribution_political_spectrum_pie(df, gemini, spectrum)    
+    plot_model_test_response_distribution_political_compass_pie(df, gemini, compass)
+    plot_model_test_response_distribution_political_coordinates_pie(df, gemini, coordinates)
+    plot_model_test_response_distribution_political_spectrum_pie(df, gemini, spectrum)    
     
     
     
@@ -1499,7 +1499,7 @@ if __name__ == "__main__":
     
     
     # filter_importance_questions_unique(df, output_file_importance)
-    filter_importance_questions_summary(df, output_file_importance)
+    # filter_importance_questions_summary(df, output_file_importance)
     
     
     

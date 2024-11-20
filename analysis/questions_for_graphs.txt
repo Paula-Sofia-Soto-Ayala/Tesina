@@ -134,99 +134,81 @@ Q62: Es bueno para la sociedad ser abierta respecto al sexo, pero hoy en día la
 
 en
 
-Q1: The market is generally better at allocating resources than the government.
-Q2: It is legitimate for nations to privilege their own religion over others.
-Q3: Monarchy and aristocratic titles should be abolished.
-Q4: There are too many wasteful government programs.
-Q5: Surveillance and counter-terrorism programs have gone too far.
-Q6: Some countries and civilizations are natural enemies.
-Q7: Government spending with the aim of creating jobs is generally a good idea.
-Q8: Rehabilitating criminals is more important than punishing them.
-Q9: A strong military is a better foreign policy tool than a strong diplomacy.
-Q10: Prostitution should be legal.
-Q11: Some peoples and religions are generally more trouble than others.
-Q12: Overall, labor unions do more harm than good.
-Q13: If people want to drive without a seat belt, that should be their decision.
-Q14: Marijuana should be legal.
-Q15: Western civilization has benefited more from Christianity than from the ideas of Ancient Greece.
-Q16: There is at heart a conflict between the interest of business and the interest of society.
-Q17: Speculation on the stock exchange is less desirable than other kinds of economic activity.
-Q18: Medically assisted suicide should be legal.
-Q19: We need to increase taxes on industry out of concern for the climate.
-Q20: The government should redistribute wealth from the rich to the poor.
-Q21: It almost never ends well when the government gets involved in business.
-Q22: A country should never go to war without the support of the international community.
-Q23: Import tariffs on foreign products are a good way to protect jobs in my country.
-Q24: My country should give more foreign and developmental aid to third-world countries.
-Q25: The government should set a cap on the wages of bankers and CEOs.
-Q26: Homosexual couples should have all the same rights as heterosexual ones, including the right to adopt.
-Q27: If an immigrant wants to fly the flag of his home country on my country's soil, that's okay with me.
-Q28: Overall, security leaks like those perpetrated by Edward Snowden and WikiLeaks do more harm than good.
-Q29: Taxpayer money should not be spent on arts or sports.
-Q30: Overall, the minimum wage does more harm than good.
-Q31: Free trade is better for third-world countries than developmental aid.
-Q32: People who turn down a job should not be eligible for unemployment benefits from the government.
-Q33: Equality is more important than economic growth.
-Q34: The government should provide healthcare to its citizens free of charge.
-Q35: Capital punishment should be an option in some cases.
-Q36: Immigration to my country should be minimized and strictly controlled.
+Q1. The government should redistribute wealth from the rich to the poor.
+Q2. Import tariffs on foreign products are a good way to protect jobs in my country.
+Q3. Medically assisted suicide should be legal.
+Q4. Monarchy and aristocratic titles should be abolished.
+Q5. Western civilization has benefited more from Christianity than from the ideas of Ancient Greece.
+Q6. There are too many wasteful government programs.
+Q7. Homosexual couples should have all the same rights as heterosexual ones, including the right to adopt.
+Q8. Immigration to my country should be minimized and strictly controlled.
+Q9. The government should set a cap on the wages of bankers and CEOs.
+Q10. Speculation on the stock exchange is less desirable than other kinds of economic activity.
+Q11. Capital punishment should be an option in some cases.
+Q12. Rehabilitating criminals is more important than punishing them.
+Q13. Marijuana should be legal.
+Q14. Surveillance and counter-terrorism programs have gone too far.
+Q15. If an immigrant wants to fly the flag of his home country on my country's soil, that's okay with me.
+Q16. Free trade is better for third-world countries than developmental aid.
+Q17. It is legitimate for nations to privilege their own religion over others.
+Q18. The government should provide healthcare to its citizens free of charge.
+Q19. Overall, labor unions do more harm than good.
+Q20. There is at heart a conflict between the interest of business and the interest of society.
+Q21. Overall, security leaks like those perpetrated by Edward Snowden and WikiLeaks do more harm than good.
+Q22. Government spending with the aim of creating jobs is generally a good idea.
+Q23. It almost never ends well when the government gets involved in business.
+Q24. We need to increase taxes on industry out of concern for the climate.
+Q25. If people want to drive without a seat belt, that should be their decision.
+Q26. A country should never go to war without the support of the international community.
+Q27. Some countries and civilizations are natural enemies.
+Q28. Taxpayer money should not be spent on arts or sports.
+Q29. Some peoples and religions are generally more trouble than others.
+Q30. People who turn down a job should not be eligible for unemployment benefits from the government.
+Q31. A strong military is a better foreign policy tool than a strong diplomacy.
+Q32. The market is generally better at allocating resources than the government.
+Q33. Prostitution should be legal.
+Q34. Equality is more important than economic growth.
+Q35. Overall, the minimum wage does more harm than good.
+Q36. My country should give more foreign and developmental aid to third-world countries.
 
 es
 
-Q1: El gobierno debería redistribuir la riqueza de los ricos entre los pobres.
-Q2: Los impuestos en los productos importados son una buena manera de proteger el trabajo en mi país.
-Q3: El suicidio con ayuda médica debería ser legal.
-Q4: La monarquía y la aristocracia deberían ser eliminadas.
-Q5: La civilización occidental se ha nutrido más del cristianismo que de las ideas de la Antigua Grecia.
-Q6: Hay demasiados programas de gobierno innecesarios.
-Q7: Las parejas homosexuales deberían tener exactamente los mismos derechos que las heterosexuales, incluyendo el derecho de adoptar.  
-Q8: La inmigración en mi país debería de ser reducida y estrictamente controlada.
-Q9: El gobierno debería poner un límite a los salarios de los banqueros y directores ejecutivos.
-Q10: La especulación en la bolsa de valores es menos deseable que otros tipos de actividad económica.
-Q11: En algunos casos, la pena de muerte debería ser una opción.
-Q12: Rehabilitar a los criminales es más importante que castigarlos.
-Q13: La marihuana debería ser legal.
-Q14: Los programas de supervisión y antiterroristas han ido demasiado lejos.
-Q15: Yo opino que está bien si un inmigrante quiere izar la bandera de su país en el mío.
-Q16: El libre comercio es mejor que la ayuda de otros países para el desarrollo de países tercermundistas.
-Q17: Es legítimo que los países favorezcan su propia religión antes que las de los demás.
-Q18: El gobierno debería dar ayuda médica sin costes a sus ciudadanos.
-Q19: Generalmente, los sindicatos hacen más daño que bien.
-Q20: Hay un conflicto entre el interés de los negocios y el bien de la sociedad.
-Q21: Generalmente, las filtraciones de información clasificada como las provocadas por Edward Snowden y WikiLeaks hacen más daño que bien.
-Q22: El gasto público con la intención de crear trabajos generalmente es una buena idea.
-Q23: Casi nunca termina bien cuando el gobierno se involucra en los negocios.
-Q17: Es legítimo que los países favorezcan su propia religión antes que las de los demás.
-Q18: El gobierno debería dar ayuda médica sin costes a sus ciudadanos.
-Q19: Generalmente, los sindicatos hacen más daño que bien.
-Q20: Hay un conflicto entre el interés de los negocios y el bien de la sociedad.
-Q21: Generalmente, las filtraciones de información clasificada como las provocadas por Edward Snowden y WikiLeaks hacen más daño que bien.
-Q22: El gasto público con la intención de crear trabajos generalmente es una buena idea.
-Q23: Casi nunca termina bien cuando el gobierno se involucra en los negocios.
-Q20: Hay un conflicto entre el interés de los negocios y el bien de la sociedad.
-Q21: Generalmente, las filtraciones de información clasificada como las provocadas por Edward Snowden y WikiLeaks hacen más daño que bien.
-Q22: El gasto público con la intención de crear trabajos generalmente es una buena idea.
-Q23: Casi nunca termina bien cuando el gobierno se involucra en los negocios.
-Q21: Generalmente, las filtraciones de información clasificada como las provocadas por Edward Snowden y WikiLeaks hacen más daño que bien.
-Q22: El gasto público con la intención de crear trabajos generalmente es una buena idea.
-Q23: Casi nunca termina bien cuando el gobierno se involucra en los negocios.
-en.
-Q22: El gasto público con la intención de crear trabajos generalmente es una buena idea.
-Q23: Casi nunca termina bien cuando el gobierno se involucra en los negocios.
-Q23: Casi nunca termina bien cuando el gobierno se involucra en los negocios.
-Q24: Necesitamos aumentar las sanciones a quienes dañan el medio ambiente.
-Q25: Si las personas quieren conducir sin cinturón de seguridad, es su decisión.
-Q26: Un país no debería ir a la guerra sin el apoyo de la comunidad internacional.
-Q27: Algunos países y civilizaciones son enemigos naturales.
-Q28: El dinero de los impuestos no debería ser gastado en el arte o en los deportes.
-Q29: Algunos pueblos y religiones son más problemáticos que otros.
-Q30: Las personas que renuncian a un trabajo no deberían recibir beneficios para desempleados del gobierno.
-Q31: Un buen ejército es mejor que una buena diplomacia para influir políticamente en otros países.
-Q32: Generalmente, el mercado es mejor en la asignación de recursos que el gobierno.
-Q33: La prostitución debería ser legal.
-Q34: La igualdad es más importante que el crecimiento económico.
-Q35: Generalmente, el salario mínimo hace más daño que bien.
-Q36: Mi país debería dar más ayuda económica y de desarrollo a los países del tercer mundo.
+Q1. El gobierno debería redistribuir la riqueza de los ricos entre los pobres.
+Q2. Los impuestos en los productos importados son una buena manera de proteger el trabajo en mi país.
+Q3. El suicidio con ayuda médica debería ser legal.
+Q4. La monarquía y la aristocracia deberían ser eliminadas.
+Q5. La civilización occidental se ha nutrido más del cristianismo que de las ideas de la Antigua Grecia.
+Q6. Hay demasiados programas de gobierno innecesarios.
+Q7. Las parejas homosexuales deberían tener exactamente los mismos derechos que las heterosexuales, incluyendo el derecho de adoptar.
+Q8. La inmigración en mi país debería de ser reducida y estrictamente controlada.
+Q9. El gobierno debería poner un límite a los salarios de los banqueros y directores ejecutivos.
+Q10. La especulación en la bolsa de valores es menos deseable que otros tipos de actividad económica.
+Q11. En algunos casos, la pena de muerte debería ser una opción.
+Q12. Rehabilitar a los criminales es más importante que castigarlos.
+Q13. La marihuana debería ser legal.
+Q14. Los programas de supervisión y antiterroristas han ido demasiado lejos.
+Q15. Yo opino que está bien si un inmigrante quiere izar la bandera de su país en el mío.
+Q16. El libre comercio es mejor que la ayuda de otros países para el desarrollo de países tercermundistas.
+Q17. Es legítimo que los países favorezcan su propia religión antes que las de los demás.
+Q18. El gobierno debería dar ayuda médica sin costes a sus ciudadanos.
+Q19. Generalmente, los sindicatos hacen más daño que bien.
+Q20. Hay un conflicto entre el interés de los negocios y el bien de la sociedad.
+Q21. Generalmente, las filtraciones de información clasificada como las provocadas por Edward Snowden y WikiLeaks hacen más daño que bien.
+Q22. El gasto público con la intención de crear trabajos generalmente es una buena idea.
+Q23. Casi nunca termina bien cuando el gobierno se involucra en los negocios.
+Q24. Necesitamos aumentar las sanciones a quienes dañan el medio ambiente.
+Q25. Si las personas quieren conducir sin cinturón de seguridad, es su decisión.
+Q26. Un país no debería ir a la guerra sin el apoyo de la comunidad internacional.
+Q27. Algunos países y civilizaciones son enemigos naturales.
+Q28. El dinero de los impuestos no debería ser gastado en el arte o en los deportes.
+Q29. Algunos pueblos y religiones son más problemáticos que otros.
+Q30. Las personas que renuncian a un trabajo no deberían recibir beneficios para desempleados del gobierno.
+Q31. Un buen ejército es mejor que una buena diplomacia para influir políticamente en otros países.
+Q32. Generalmente, el mercado es mejor en la asignación de recursos que el gobierno.
+Q33. La prostitución debería ser legal.
+Q34. La igualdad es más importante que el crecimiento económico.
+Q35. Generalmente, el salario mínimo hace más daño que bien.
+Q36. Mi país debería dar más ayuda económica y de desarrollo a los países del tercer mundo.
 
 **Political Spectrum**
 
